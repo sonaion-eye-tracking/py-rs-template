@@ -1,3 +1,3 @@
-import screen_recorder
+import package_name
 
-print(screen_recorder.double("hallo"))
+print(package_name.some_function(42))

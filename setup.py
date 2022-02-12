@@ -36,20 +36,18 @@ setup_requires = [
 ]
 
 setup(
-    name="screen_recorder",
+    name="package_name",
     version=package_meta['version'],
     author=package_meta['authors'][0],
     license="BSD-3-Clause",
     classifiers=[
-        "Development Status :: 3 - Alpha",
-        "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
         "Programming Language :: Rust",
         "Programming Language :: Python :: 3",
     ],
     rust_extensions=[
         RustExtension(
-            'screen_recorder.screen_recorder_rs',
+            'package_name.package_name_rs',
             'Cargo.toml',
             binding=Binding.PyO3,
             strip=Strip.Debug),

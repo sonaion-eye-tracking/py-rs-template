@@ -1,12 +1,12 @@
 [package]
-name = "screen-recorder-rs"
+name = "package-name-rs"
 version = "0.0.1"
 authors = ["Jonas Mucke <jonas.mucke@web.de>"]
 edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "screen_recorder_rs"
+name = "package_name_rs"
 # "cdylib" is necessary to produce a shared library for Python to import from.
 #
 # Downstream Rust code (including code in `bin/`, `examples/`, and `tests/`) will not be able

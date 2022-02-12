@@ -1,6 +1,7 @@
 mod python_module;
+#[cfg(test)]
 mod tests;
 
-fn double(x: i32) -> i32 {
+fn some_function(x: i32) -> i32 {
     x * 2
 }
