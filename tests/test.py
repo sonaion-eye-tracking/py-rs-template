@@ -1,3 +1,3 @@
-import package_name
+import sonaion_package_name
 
-print(package_name.some_function(42))
+print(sonaion_package_name.some_function(42))
